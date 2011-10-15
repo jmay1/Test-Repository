@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE9580141449129D00D550F7 /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9580131449129D00D550F7 /* NewClass.m */; };
 		EEC2A25B1448DB6A00683BA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC2A25A1448DB6A00683BA7 /* UIKit.framework */; };
 		EEC2A25D1448DB6A00683BA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC2A25C1448DB6A00683BA7 /* Foundation.framework */; };
 		EEC2A25F1448DB6A00683BA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC2A25E1448DB6A00683BA7 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE9580121449129D00D550F7 /* NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		EE9580131449129D00D550F7 /* NewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
 		EEC2A2561448DB6A00683BA7 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC2A25A1448DB6A00683BA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEC2A25C1448DB6A00683BA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				EEC2A26F1448DB6A00683BA7 /* MainStoryboard_iPad.storyboard */,
 				EEC2A2721448DB6A00683BA7 /* TAViewController.h */,
 				EEC2A2731448DB6A00683BA7 /* TAViewController.m */,
+				EE9580121449129D00D550F7 /* NewClass.h */,
+				EE9580131449129D00D550F7 /* NewClass.m */,
 				EEC2A2611448DB6A00683BA7 /* Supporting Files */,
 			);
 			path = TestApp;
@@ -264,6 +269,7 @@
 				EEC2A2671448DB6A00683BA7 /* main.m in Sources */,
 				EEC2A26B1448DB6A00683BA7 /* TAAppDelegate.m in Sources */,
 				EEC2A2741448DB6A00683BA7 /* TAViewController.m in Sources */,
+				EE9580141449129D00D550F7 /* NewClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +449,7 @@
 				EEC2A28E1448DB6A00683BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEC2A28F1448DB6A00683BA7 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				EEC2A2911448DB6A00683BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
