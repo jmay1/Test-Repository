@@ -6,6 +6,7 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 // Version 2
+// On master branch, after branch 1 created
 
 #import <UIKit/UIKit.h>
 
